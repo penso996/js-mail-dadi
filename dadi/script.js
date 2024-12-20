@@ -8,10 +8,10 @@ const pcRandomNumber = Math.floor(Math.random() * 6) + 1;
 console.log("Il numero random assegnato al computer è: " + pcRandomNumber);
 
 if (userRandomNumber > pcRandomNumber) {
-    console.log("Hai vinto");
+    console.log("Hai vinto!");
 }
 else if (pcRandomNumber > userRandomNumber) {
-    console.log("Hai perso");
+    console.log("Hai perso!");
 }
 else {
     console.log("C'è stato un pareggio! Riaggiorna la pagina per tentare la fortuna.");
